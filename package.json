@@ -1,19 +1,23 @@
 {
-  "name": "riddles",
-  "version": "1.0.0",
-  "description": "A collection of riddles",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/guyellis/riddles/issues"
   },
+  "dependencies": {},
+  "description": "A collection of riddles",
+  "devDependencies": {
+    "@postlight/mercury-parser": "2.2.0"
+  },
+  "homepage": "https://github.com/guyellis/riddles#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "riddles",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guyellis/riddles.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guyellis/riddles/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/guyellis/riddles#readme"
+  "version": "1.0.0"
 }

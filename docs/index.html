@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- https://material.io/develop/web/docs/getting-started/ -->
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
@@ -12,22 +13,25 @@
   </head>
   <body>
     <div>
-        <ul id='riddle-ul' class="mdc-list mdc-list--two-line">
-        </ul>
+        <p id='riddle-p'>
+        </p>
     </div>
   </body>
 
   <script>
     // Setup rows in table
+    // Uses: https://material.io/develop/web/components/cards/
     $(() => {
-      const grid = $('#riddle-ul');
-      riddles.forEach((riddle, index) => {
-        const row = `<li class="mdc-list-item">
-          <span class="mdc-list-item__text">
-          <span class="mdc-list-item__primary-text">${riddle.q}</span>
-          <span class="mdc-list-item__secondary-text">${riddle.a}</span>
-          </span>
-        </li>`;
+      const grid = $('#riddle-p');
+      riddles.forEach((riddle) => {
+        const row = `<div class="mdc-card" style="padding: 16px">
+          <div class="mdc-card__primary_action mdc-theme--primary" tabindex="0" style="padding: 6px">
+            ${riddle.q}
+          </div>
+          <div class="mdc-theme--secondary">
+            ${riddle.a}
+          </div>
+        </div>`;
         grid.append(row);
       });
   });

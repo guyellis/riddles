@@ -1,4 +1,8 @@
 const riddles = [{
+  "q": "Why do seagulls fly over the sea?",
+  "a": "Because if they flew over the bay they'd be Bagels."
+},
+{
   "q": "What type of cheese is made backwards?",
   "a": "Edam."
 },

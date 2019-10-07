@@ -317,4 +317,132 @@ const riddles = [{
 {
   "q": "If four people can repair four bicycles in four hours, how many bicycles can eight people repair in eight hours?",
   "a": "16 bicycles."
+},
+{
+  "q": "How far can a fox run into the woods?",
+  "a": "Only halfway, otherwise it would be running out of the woods!"
+},
+{
+  "q": "I am an odd number. Take away a letter and I become even. What number am I?",
+  "a": "Seven."
+},
+{
+  "q": "What has hands but doesn’t clap?",
+  "a": "A clock."
+},
+{
+  "q": "If a red house is made of red bricks, and a yellow house is made of yellow bricks, what is a greenhouse made of?",
+  "a": "Glass, all greenhouses are made of glass."
+},
+{
+  "q": "What has to be broken before you can use it?",
+  "a": "An egg."
+},
+{
+  "q": "If two’s company, and three’s a crowd, what are four and five?",
+  "a": "Nine!"
+},
+{
+  "q": "What goes up but never comes back down?",
+  "a": "Your age!"
+},
+{
+  "q": "What five-letter word becomes shorter when you add two letters to it?",
+  "a": "Shorter. (Short + ‘er’)"
+},
+{
+  "q": "What begins with T, finishes with T, and has T in it?",
+  "a": "A teapot."
+},
+{
+  "q": "I’m tall when I’m young, and I’m short when I’m old, what am I?",
+  "a": "A candle."
+},
+{
+  "q": "What word is spelled wrong in every dictionary?",
+  "a": "Wrong."
+},
+{
+  "q": "You draw a line. Without touching it, how do you make it a longer line?",
+  "a": "Draw a short line next to it and now it’s the longer line."
+},
+{
+  "q": "What is so fragile that saying its name breaks it?",
+  "a": "Silence."
+},
+{
+  "q": "What begins with an E but only has one letter?",
+  "a": "An envelope."
+},
+{
+  "q": "How can a leopard change its spots?",
+  "a": "By moving from one spot to another."
+},
+{
+  "q": "What is easy to get into but hard to get out of?",
+  "a": "Trouble."
+},
+{
+  "q": "If a brother, his sister, and their dog weren’t under an umbrella, why didn’t they get wet?",
+  "a": "It wasn’t raining."
+},
+{
+  "q": "David’s parents have three sons: Snap, Crackle and…?",
+  "a": "David!"
+},
+{
+  "q": "Mary has four daughters, and each of her daughters has a brother — how many children does Mary have?",
+  "a": "Five, each daughter has the same brother."
+},
+{
+  "q": "You bought me for dinner but never eat me. What am I?",
+  "a": "Cutlery."
+},
+{
+  "q": "After a train crashed, every single person died. Who survived?",
+  "a": "All of the couples."
+},
+{
+  "q": "What has four eyes but can’t see?",
+  "a": "Mississippi."
+},
+{
+  "q": "Where does success come before work?",
+  "a": "The dictionary."
+},
+{
+  "q": "What travels around the world but stays in one spot?",
+  "a": "A stamp."
+},
+{
+  "q": "How many letters are there in the English alphabet?",
+  "a": "18: 3 in ‘the’, 7 in ‘English,’ and 8 in ‘alphabet.’"
+},
+{
+  "q": "A word I know, six letters it contains, remove one letter and 12 remains, what is it?",
+  "a": "Dozens."
+},
+{
+  "q": "What is full of holes but still holds water?",
+  "a": "A sponge."
+},
+{
+  "q": "What answer can you never answer yes to?",
+  "a": "Are you asleep yet?",
+},
+{
+  "q": "When things go wrong, what can you always count on?",
+  "a": "Your fingers."
+},
+{
+  "q": "Turn us on our backs and open up our stomachs, and you will be the wisest but at the start a lummox. What are we?",
+  "a": "Books."
+},
+{
+  "q": "What is always in front of you but can’t be seen?",
+  "a": "The future."
+},
+{
+  "q": "Where can you find cities, towns, shops, and streets but no people?",
+  "a": "A map."
 }];

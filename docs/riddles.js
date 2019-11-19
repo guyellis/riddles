@@ -1,4 +1,7 @@
 const riddles = [{
+  "q": "How do you tell the gender of an ant?",
+  "a": "Put it in water. If it sinks, girl ant. If it floats, buoyant."
+},{
   "q": "Why do seagulls fly over the sea?",
   "a": "Because if they flew over the bay they'd be Bagels."
 },
